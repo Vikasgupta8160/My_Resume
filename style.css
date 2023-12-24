@@ -101,12 +101,12 @@ body{
 .contactInfo ul li span{
     color: #fff;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
 }
 .contactInfo ul li span a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 19px;
 }
 .contactInfo.education li{
     margin-bottom: 15px;
@@ -114,12 +114,12 @@ body{
 .contactInfo.education h5{
     color: #FF7F50;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 18px;
 }
 .contactInfo.education h6{
     color: #FF7F50;
     float: right;
-    font-size: 15px;
+    font-size: 17px;
 }
 .contactInfo.education h4:nth-child(2){
     color: #FFFFFF;
@@ -129,7 +129,7 @@ body{
     color: #fff;
     font-weight: 200;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 1.5px;
 }
 
@@ -140,10 +140,12 @@ body{
 .language ul li{
     color: #FFFFFF;
     letter-spacing: 1.5px;
+    font-size: 19px;
 }
 .hobby ul li{
     color: #FFFFFF;
     letter-spacing: 1.5px;
+    font-size: 19px;
 }
 
 .container .right_side{
@@ -184,7 +186,7 @@ p{
     text-transform: uppercase;
     color: #FFFFFF;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
 }
 .text{
     margin-left: 7px;
@@ -212,7 +214,7 @@ p{
     color: #FF7F50;
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 17px;
+    font-size: 18px;
     margin-top: 5px;
 }
 
@@ -269,6 +271,10 @@ p{
     background: #FF7F50;
     animation: angular 3s linear forwards;
 }
+.python{
+    background: #FF7F50;
+    animation: angular 4s linear forwards;
+}
 .html span{
     border: 1px solid #2a7da2;
 }
@@ -290,6 +296,9 @@ p{
 .angular span{
     border: 1px solid #2a7da2;
 }
+.python span{
+    border: 1px solid #2a7da2;
+}
 
 @keyframes html{
     100%{
@@ -308,7 +317,7 @@ p{
 }
 @keyframes javascript{
     100%{
-        width: 50%;
+        width: 60%;
     }
 }
 @keyframes jquery{
@@ -318,12 +327,17 @@ p{
 }
 @keyframes mysql{
     100%{
-        width: 65%;
+        width: 75%;
     }
 }
 @keyframes angular{
     100%{
-        width: 40%;
+        width: 60%;
+    }
+}
+@keyframes python{
+    100%{
+        width: 60%;
     }
 }
 
